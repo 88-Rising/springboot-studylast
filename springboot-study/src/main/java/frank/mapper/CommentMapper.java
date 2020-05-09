@@ -1,11 +1,8 @@
 package frank.mapper;
 
 import frank.model.Comment;
-import org.apache.ibatis.annotations.Mapper;
-
 import java.util.List;
 
-@Mapper
 public interface CommentMapper {
     int deleteByPrimaryKey(Long id);
 
